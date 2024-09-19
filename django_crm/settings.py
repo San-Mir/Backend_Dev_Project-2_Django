@@ -74,16 +74,16 @@ WSGI_APPLICATION = 'django_crm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'django_db',
-        'USER': 'root',
-        'PASSWORD': 'schooler1',
-        'HOST': 'localhost',
-        'PORT': '3306',
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'django_db',
+#         'USER': 'root',
+#         'PASSWORD': 'schooler1',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
+#    }
+#}
 
 
 # Password validation
@@ -126,3 +126,14 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django_db',
+        'USER': 'sanmir1',
+        'PASSWORD': 'schooler1',
+        'HOST': 'sanmir1.mysql.pythonanywhere-services.com',
+        'PORT': '3306',
+    }
+}
